@@ -1,0 +1,57 @@
+export default {
+    container:{
+        flex:1
+    },
+    result:{
+        flex:2,
+        backgroundColor:'white',
+        alignItems:'flex-end',
+        justifyContent:'center'
+    },
+    resultText:{
+        fontSize:65,
+        color:'black'
+    },
+    calculationText:{
+        fontSize:40,
+        color:'gray'
+    },
+    calculation:{
+        flex:1,
+        backgroundColor:'white',
+        alignItems:'flex-end',
+        justifyContent:'center'
+    },
+    buttons:{
+        flex:7,
+        flexDirection:'row'
+    },
+    btn:{
+        flex:1,
+        alignItems:'center',
+        justifyContent:'center',
+        alignSelf:'stretch'
+    },
+    btnText:{
+        fontSize:30,
+        color:'white'
+    },
+    white:{
+        color:'white'
+    },
+    numbers:{
+        flex:3,
+        backgroundColor: '#434343'
+    },
+    row:{
+        flex:1,
+        flexDirection:'row',
+        alignItems:'center',
+        justifyContent:'space-around'
+    },
+    operations: {
+        flex:1,
+        justifyContent:'space-around',
+        backgroundColor:'#636363'
+    }
+}
